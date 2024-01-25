@@ -20,12 +20,10 @@ export async function init(router) {
   });
 
   router.post("/config", async (req, res) => {
-    console.log(req);
     res.send("OK");
     let body = await reqBody(req);
 
     fs.writeFile("./config.yaml", body);
-    console.log(body);
   });
 
   router.get("/config", async (req, res) => {

@@ -19,7 +19,6 @@ async function loadSettingsHTML() {
   extension_settings.adminpanel.config = await fetch(
     "/api/plugins/adminpanel/config"
   ).then((res) => res.text());
-  console.log(extension_settings.adminpanel.config);
   $("#extensions_settings2").append(settingsHtml);
   $("#adminpanel_config").val(extension_settings.adminpanel.config);
   $("#adminpanel_updateconfig").on("click", async () => {
