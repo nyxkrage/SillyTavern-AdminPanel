@@ -1,0 +1,19 @@
+{
+  "name": "sillytavern-adminpanel",
+  "version": "1.0.0",
+  "description": "Server Plugin for SillyTavern-AdminPanel",
+  "main": "index.mjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NyxKrage/SillyTavern-AdminPanel.git"
+  },
+  "keywords": [
+    "sillytavern"
+  ],
+  "author": "Cohee1207",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/NyxKrage/SillyTavern-AdminPanel/issues"
+  },
+  "homepage": "https://github.com/NyxKrage/SillyTavern-AdminPanel#readme"
+}

@@ -1,0 +1,12 @@
+{
+  "display_name": "AdminPanel",
+  "extension_name": "third-party/SillyTavern-AdminPanel",
+  "loading_order": 12,
+  "requires": [],
+  "optional": [],
+  "js": "extension.js",
+  "css": "style.css",
+  "author": "Carsten Kragelund",
+  "version": "1.0.0",
+  "homePage": "https://github.com/NyxKrage/SillyTavern-AdminPanel"
+}
